@@ -1,19 +1,32 @@
-@import "github.css";
+@import "night.css";
 @include-when-export "persian/vazir-online.css";
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 @import "persian/vazir.css";
+@import "persian/opensans.css";
 
-:root {
-    --control-text-color: rgb(10,10,10);
-}
-
-body {
+html,
+body,
+button,
+input,
+select,
+textarea {
     font-family: 'Vazir', "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: rgb(10, 10, 10);
 }
 
 #write {
 	/* RTL */
 	direction: rtl;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Vazir", "Lucida Grande", "Corbel", sans-serif;
+	font-weight: bold;
 }
 
 h1:hover a.anchor,
@@ -26,7 +39,8 @@ h6:hover a.anchor {
 }
 blockquote {
 	border-left: none;
-    border-right: 4px solid #dfe2e5;
+    border-right: 4px solid #474d54;
+	margin: 0 1.875rem 1.875rem 0;
     padding: 0 15px;
 }
 blockquote blockquote {

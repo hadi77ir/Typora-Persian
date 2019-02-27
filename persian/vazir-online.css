@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('https://cdn.jsdelivr.net/npm/vazir-font@19.2.0/dist/Without-Latin/Vazir-WOL.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url('https://cdn.jsdelivr.net/npm/vazir-font@19.2.0/dist/Without-Latin/Vazir-Thin-WOL.woff2') format('woff2');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url('https://cdn.jsdelivr.net/npm/vazir-font@19.2.0/dist/Without-Latin/Vazir-Bold-WOL.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
