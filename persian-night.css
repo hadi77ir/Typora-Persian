@@ -79,3 +79,7 @@ header, .context-menu, .megamenu-content, footer{
 	font-weight: 400;
 	content:': ';
 }
+
+ul, ol {
+    padding: 0 1.875rem 0 0;
+}
